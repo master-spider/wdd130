@@ -37,8 +37,6 @@ aside img {
     height: auto;
 }
 footer {
-    background-color: rgb(50, 50, 102);
     border-top: dashed 2px white;
     text-align: center;
-    color: wheat;
 }
