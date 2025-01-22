@@ -1,7 +1,7 @@
 :root{
     --default-border: 1px solid black;
     --padding: 10px;
-    --centered-text: center;
+    --centering: center;
     --text-color: rgb(0,204,225);
     --background: rgb(139, 90, 0);
 }
@@ -38,7 +38,7 @@ aside {
     border: var(--default-border);
     background: #170b5c;
     color: var(--text-color);
-    text-align: var(--centered-text);
+    text-align: var(--centering);
 }
 aside img {
     width: 200px;
@@ -46,6 +46,6 @@ aside img {
 }
 footer {
     border-top: dashed 2px white;
-    text-align: var(--centered-text);
+    text-align: var(--centering);
     position: absolute;
 }
