@@ -1,14 +1,20 @@
+/* Creating variables with common attributes */
 :root{
-    --default-border: 1px solid black;
+    --default-border: 3px solid black;
     --padding: 10px;
     --centering: center;
+    --header-color: ;
     --text-color: rgb(0,204,225);
-    --background: rgb(139, 90, 0);
+    --background: rgb(37, 3, 100);
+    --secondary-background: rgb(0, 27, 145);
+    --box-shadow: 0 0 30px rgb(182, 182, 182);
 }
+/* styling the navigation bar*/
 nav {
     background-color: var(--background);
     padding: var(--padding);
 }
+/* styling nav bar links */
 nav a {
     color:var(--text-color);
     display: block;
@@ -22,30 +28,37 @@ main img {
     height: auto;
     border: var(--default-border);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: var(--box-shadow);
     background: var(--background);
 }
 p {
     padding: var(--padding);
-    text-decoration-color: var(--text-color);
+    color: var(--text-color);
+    box-shadow: var(--box-shadow);
+    background: var(--background);
 }
 main {
     max-width: 840px;
+    background:var(--secondary-background);
 }
 aside {
     width: 20rem;
     margin: 1rem;
     border: var(--default-border);
-    background: #170b5c;
+    background:var(--secondary-background);
     color: var(--text-color);
     text-align: var(--centering);
 }
 aside img {
     width: 200px;
     height: auto;
+    padding: var(--padding);
+    box-shadow: var(box-shadow);
 }
 footer {
-    border-top: dashed 2px white;
+    border-top: dashed 2px var(--default-border);
     text-align: var(--centering);
-    position: absolute;
+    text-shadow: var(--box-shadow);
+    bottom: 0;
+    background: var(--background);
 }
