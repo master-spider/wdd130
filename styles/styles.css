@@ -14,7 +14,7 @@ nav {
     background-color: var(--background);
     padding: var(--padding);
 }
-/* styling nav bar links */
+/* styling nav element links */
 nav a {
     color:var(--text-color);
     display: block;
@@ -61,4 +61,7 @@ footer {
     text-shadow: var(--box-shadow);
     bottom: 0;
     background: var(--background);
+}
+article {
+    width: 10px;
 }
