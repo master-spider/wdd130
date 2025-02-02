@@ -6,31 +6,90 @@
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'DM Serif Text', serif;
-    font-weight: 400;
+    font-weight: auto;
     font-style: italic;
 }
-text{
+p{
     font-family: 'Nunito', sans-serif;
     font-optical-sizing: auto;
-    font-weight: 200;
+    font-weight: auto;
     font-style: normal;
+}
+body{
+    max-width: 1300px;
+    background-color: var(---secondary-color);
 }
 a{
     text-decoration: none;
 }
 .hero img{
-   position: relative;
+   display: block;
    width: 100%;
    height: auto;
+   position: relative;
+   opacity: 0.6;
 }
 .hero h1{
     position: absolute;
+    bottom: 200px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(---primary-color);
+    text-decoration-color: var(---secondary-color);
+    padding: 1rem var(---accent1);
+    border: var(---primary-color);
 }
-article{
-    position: absolute;
+.hero article{
+    max-width: 1200px;
+    position: relative;
+    bottom: 400px;
+    left: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: var(---secondary-color);
+    text-decoration-color: var(---secondary-color);
+    padding: 1rem var(---accent1);
 }
 article img{
-    width: 100px;
+    position: relative;
+    max-width: 300px;
     height: auto;
-    float: right;
+    float: left;
 }
+article
+.logo-box nav{
+    display: flex;
+    justify-content: space-between;
+    border: 2px var(---primary-color);
+    padding: 1rem;
+    color: var(---accent2);
+}
+.logo-box{
+    color: var(---accent2);
+    align-items: left;
+}
+.logo-box img{
+    max-width: 300px;
+    height: auto;
+}
+/* .text-overlay h1, p{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: solid var(---secondary-color);
+    color: var(---primary-color);
+    padding: 10px var(---accent1);
+    box-sizing: border-box;
+} */
