@@ -18,3 +18,19 @@ text{
 a{
     text-decoration: none;
 }
+.hero img{
+   position: relative;
+   width: 100%;
+   height: auto;
+}
+.hero h1{
+    position: absolute;
+}
+article{
+    position: absolute;
+}
+article img{
+    width: 100px;
+    height: auto;
+    float: right;
+}
