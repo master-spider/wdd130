@@ -1,8 +1,8 @@
 :root{
-    ---primary-color: solid #0077B6;
-    ---secondary-color: solid #00B4D8;
-    ---accent1: solid #90E0EF;
-    ---accent2: solid #CAF0F8;
+    ---primary-color: #0077B6;
+    ---secondary-color: #00B4D8;
+    ---accent1: #90E0EF;
+    ---accent2: #CAF0F8;
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'DM Serif Text', serif;
@@ -17,7 +17,7 @@ p{
 }
 body{
     max-width: 1300px;
-    background-color: var(---secondary-color);
+    background-color: solid var(---accent2);
 }
 a{
     text-decoration: none;
@@ -27,7 +27,6 @@ a{
    width: 100%;
    height: auto;
    position: relative;
-   opacity: 0.6;
 }
 .hero h1{
     position: absolute;
@@ -38,13 +37,13 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(---primary-color);
-    text-decoration-color: var(---secondary-color);
-    padding: 1rem var(---accent1);
-    border: var(---primary-color);
+    background-color: var(---accent2);
+    color: solid var(---primary-color);
+    padding: 10px var(---accent1);
+    border:dotted 5px var(---primary-color);
 }
 .hero article{
-    max-width: 1200px;
+    max-width: 80%;
     position: relative;
     bottom: 400px;
     left: 10%;
@@ -54,8 +53,8 @@ a{
     justify-content: center;
     align-items: center;
     background-color: var(---secondary-color);
-    text-decoration-color: var(---secondary-color);
-    padding: 1rem var(---accent1);
+    border: 10px solid var(---primary-color);
+    color: solid black;
 }
 article img{
     position: relative;
@@ -63,17 +62,22 @@ article img{
     height: auto;
     float: left;
 }
-article
+article p{
+   color: solid black;
+   padding-left: 1rem var(---accent1);
+}
 .logo-box nav{
     display: flex;
     justify-content: space-between;
     border: 2px var(---primary-color);
     padding: 1rem;
     color: var(---accent2);
+    background: var(---secondary-color);
 }
 .logo-box{
     color: var(---accent2);
     align-items: left;
+    background-color: var(---primary-color);
 }
 .logo-box img{
     max-width: 300px;
