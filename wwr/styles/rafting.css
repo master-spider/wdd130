@@ -39,8 +39,8 @@ a{
     align-items: center;
     background-color: var(---accent2);
     color: solid var(---primary-color);
-    padding: 10px var(---accent1);
-    border:dotted 5px var(---primary-color);
+    padding: 20px var(---accent1);
+    border:dotted 10px var(---primary-color);
 }
 .hero article{
     max-width: 80%;
